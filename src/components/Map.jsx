@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { GoogleMap, LoadScript, Polygon } from "@react-google-maps/api";
+import useFetch from "../hooks/useFetch";
 
 const apiKey = import.meta.env.VITE_API_KEY;
 const mapKey = import.meta.env.VITE_MAPS_API;
